@@ -87,3 +87,29 @@ body {
     border: 3px solid rgb(76,129,226);
     border-radius: 8px;
 }
+
+#quote {
+    background-color: #E5E7EB;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote-text, #quote-author {
+    width: 70%;
+}
+
+#quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 0;
+}
+
+#quote-author {
+    text-align: end;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
