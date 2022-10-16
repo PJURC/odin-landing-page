@@ -1,7 +1,9 @@
 body {
+    font-family: Ubuntu;
     text-align: center;
     height: 100vh;
     margin: 0;
+    color: rgb(23, 23, 31);
 }
 
 #header, #hero, #footer {
@@ -31,9 +33,9 @@ body {
 
 #hero {
     color: #F9FAF8;
-    gap: 20px;
     justify-content: space-between;
     padding-bottom: 80px;
+    gap: 20px;
 }
 
 #hero-description {
@@ -64,8 +66,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 50%;
+    width: auto;
+    height: auto;
+    max-width: 40%;
     background-color: grey;
+    border-radius: 16px;
 }
 
 #cards {
@@ -119,7 +124,7 @@ body {
     justify-content: space-between;
     background-color: rgb(76,129,226);
     border-radius: 8px;
-    width: 70%;
+    width: 800px;
     margin: 40px auto;
 }
 
@@ -148,4 +153,5 @@ body {
     align-items: center;
     color: white;
     font-size: 20px;
+    padding: 0;
 }
